@@ -1,7 +1,7 @@
 package firstclass;
 import java.util.*;
 
-public class task1 {
+    class task1 {
 	public class NumberGuessingGame {
 
 	    public static void main(String[] args) {
@@ -56,11 +56,6 @@ public class task1 {
 	        scanner.close();
 	    }
 	}
-
-
-	public static void main(String[] args) {
-		
-
-	}
-
 }
+
+
