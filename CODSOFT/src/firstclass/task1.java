@@ -17,7 +17,7 @@
 		        while (playAgain) {
 		            int generatedNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
 		            int attempts = 0;
-		            int maxAttempts = 7; // Let's give the user 7 attempts per round
+		            int maxAttempts = 7;
 		            boolean guessedCorrectly = false;
 
 		            System.out.println("\nI'm thinking of a number between " + lowerBound + " and " + upperBound + ".");
@@ -26,7 +26,7 @@
 		            while (attempts < maxAttempts && !guessedCorrectly) {
 		                System.out.print("Enter your guess: ");
 		                int userGuess = scanner.nextInt();
-		                scanner.nextLine(); // Consume the newline character
+		                scanner.nextLine(); 
 
 		                attempts++;
 
